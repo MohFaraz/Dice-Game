@@ -1,0 +1,148 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: linear-gradient(135deg, #b82e3c, #7a357d);
+}
+.family {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+.card {
+  width: 60%;
+  height: 550px;
+  display: flex;
+  margin: 80px;
+  margin-left: 270px;
+  border-radius: 4px;
+  position: relative;
+}
+.left {
+  width: 50%;
+  position: relative;
+  background-color: #ddb0bc;
+}
+.right {
+  width: 50%;
+  position: relative;
+  background-color: #bd7c97;
+}
+.left-button {
+  width: 150px;
+  height: 90px;
+  background-color: #c6365f;
+  border-radius: 7px;
+}
+.left-button > p {
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+.right-button {
+  width: 150px;
+  height: 90px;
+  background-color: #c6365f;
+}
+.right-button > p {
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+.faraz {
+  position: absolute;
+  top: 60%;
+  left: 32%;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+.player1 {
+  width: 30%;
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  display: flex;
+  justify-content: center;
+}
+.player2 {
+  width: 30%;
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  display: flex;
+  justify-content: center;
+}
+.score {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 47%;
+  top: 22%;
+  margin-top: 8%;
+  font-size: 240%;
+  color: #c6365f;
+}
+
+.fa {
+  font-size: 6px;
+  padding: 6px;
+}
+.roll-dice {
+  width: 40%;
+  height: 90%;
+  position: absolute;
+  right: -20%;
+  z-index: 1;
+  text-align: center;
+}
+.roll-dice > a {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+a {
+  text-decoration: none;
+}
+.hold {
+  position: absolute;
+  bottom: 13%;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.hold > a {
+  display: block;
+}
+
+.game {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+.new {
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 5px;
+}
+.img {
+  width: 20px;
+  margin-right: 7px;
+}
+.H {
+  width: 70%;
+  margin-left: 24px;
+  border-radius: 17px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dice {
+  position: absolute;
+  top: 32%;
+  left: 40px;
+}
+.roll-dice > .dice {
+  width: 50%;
+}
